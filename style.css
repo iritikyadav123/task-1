@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height : 5rem;
+    background-color: #e9edc9;
+    box-shadow: 0 0 1rem rgb(127, 100, 38);
+    font-weight: 700;
+    font-size: 0.8rem;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    color: #b2807e;
+    columns: 12rem;
+    
+}
+.navbar_logo{
+  height: 3rem;
+  width: 3rem;
+  padding-bottom: 1rem;
+  
+}
+.logo {
+    background-image: url(restaurant_9965437.png);
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;    
+}
+.logo_name {
+    padding-top: 3rem;
+    font-weight: bolder;
+    font-size:  medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #b2807e ;
+}
+.home{
+    margin-left: 1rem;
+}
+.contect {
+    margin-left: 1rem;
+}
+.product {
+    margin-left: 1rem;     
+}
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(6, 35, 37);
+}
+.searchbar {
+    width: 50rem;
+    background-color:white;
+    height: 2rem;
+    border-radius: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+ /*-------main---------*/
+    .box1{
+        height: 500px;
+        width: 100%;
+        background-image: url(gold-cutlery-set-black-background.jpg);
+        background-size:cover ;
+    }
+    .f_item{
+        font-size:8rem;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        padding-left: 36rem;
+        font-family: cursive;
+        text-shadow: 1px 1px 2px red, 0 0 0.5em blue, 0 0 0.2em #B35620;
+    }
+    .f1_item{
+        font-size:4rem;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        padding-left: 40rem;
+        font-family: cursive;
+        text-shadow: 1px 1px 2px red, 0 0 0.5em blue, 0 0 0.2em #B35620;
+    }
+    .f2_item {
+       
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        font-size:2rem;
+        border: 0.1rem solid black;
+        position: absolute;
+        left: 52rem;
+    }
+    .f3_item {
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        font-size:2rem;
+        position: absolute;
+        left: 52rem;
+         margin-top: 3rem;
+         font-family: cursive;
+    }
+    .box2{
+        height:10rem;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+        text-shadow: 1px 1px 2px rgba(214, 150, 13, 0.904), 0 0 0.5em rgb(152, 186, 30), 0 0 0.2em #B35620;
+        font-family:cursive;
+         
+    }
+    /*---------menu_box---------*/
+    .box3{
+        height: 30rem;
+        width: 50rem;
+        display:flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .box3_item1{
+        height: 25rem;
+        width: 25rem;
+         background-image: url(wojtek-mich-ZGj0_IjgXdo-unsplash.jpg);
+        border-radius: 5rem;
+        background-size: cover;  
+        padding-left: 2rem; 
+        margin-left: 2rem;
+         
+    }
+    .box3_item1 h2{
+         color: #b5662e;
+         position: absolute;
+         left: 50rem;
+         font-size: xx-large;
+         font-family: cursive;
+         margin-top: 10rem;
+    }
+    .box3_item1 big{
+        position: absolute;
+        left : 45rem;
+        margin-top: 4rem;
+        font-weight: bolder;
+        font-size: xx-large;
+        margin-top: 13rem;
+        text-shadow: 1px 1px 2px rgba(214, 93, 13, 0.904), 0 0 0.5em rgb(208, 128, 78), 0 0 0.2em #B35620;
+    }
+    .box3_item1 p {
+        position: absolute;
+        left : 40rem;
+        margin-top: 8rem;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    /*--------box4------*/
+     .box4{
+         display: flex;
+        justify-content: space-evenly;
+        /* align-items: center;  */
+     }
+     .box4_1 {
+        height:25rem;
+        width:65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+        
+        
+     }
+     .box4_2 {
+       
+       
+     }
+     .box4_img{
+        height: 25rem;
+        width: 27rem;
+        background-image: url(photo-1565958011703-44f9829ba187.webp);
+        background-size: cover;
+        border-radius: 4rem;
+     } 
+     .box4_1 h3 {
+         color: #b5662e;
+         position: absolute;
+         /* left: 50rem; */
+         font-size: 2.5rem;
+         font-family: cursive;
+         margin-bottom: 4rem;
+     }
+      .arr {
+        text-shadow: 1px 1px 2px rgba(214, 93, 13, 0.904), 0 0 0.5em rgb(208, 128, 78), 0 0 0.2em #B35620;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 2rem;
+    }
+    .box5{
+        display: flex;
+        justify-content: space-evenly; 
+    }
+    .box5_1{
+        height:25rem;
+        width:35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+        
+    }
+    .box5_2{
+        height:30rem;
+        width:65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+         
+    }
+    .box5_img{
+        height: 25rem;
+        width: 27rem;
+        background-image: url(photo-1488900128323-21503983a07e.webp);
+        background-size: cover;
+        border-radius: 4rem;
+    }
+    .box5_2 h3{
+        color: #b5662e;
+         position: absolute;
+         /* left: 50rem; */
+         font-size: 2.5rem;
+         font-family: cursive;
+         margin-bottom: 4rem; 
+    }
+    .box5_2 span {
+        text-shadow: 1px 1px 2px rgba(214, 93, 13, 0.904), 0 0 0.5em rgb(208, 128, 78), 0 0 0.2em #B35620;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 2rem;
+    }
+    .box6{
+        display: flex;
+       justify-content: space-evenly;
+       /* align-items: center;  */
+    }
+    .box6_1 {
+       height:25rem;
+       width:65%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding-top: 4rem;
+       
+       
+    }
+    .box6_2 {
+      
+      
+    }
+    .box6_img{
+       height: 25rem;
+       width: 27rem;
+       background-image: url(image_6.webp);
+       background-size: cover;
+       border-radius: 4rem;
+    } 
+    .box6_1 h3 {
+        color: #b5662e;
+        position: absolute;
+        /* left: 50rem; */
+        font-size: 2.5rem;
+        font-family: cursive;
+        margin-bottom: 4rem;
+    }
+    .box6_1  span {
+       text-shadow: 1px 1px 2px rgba(214, 93, 13, 0.904), 0 0 0.5em rgb(208, 128, 78), 0 0 0.2em #B35620;
+       font-size: 2rem;
+       font-weight: 600;
+       margin: 2rem;
+   } 
+   /*-----------footer--------*/
+    .item1{
+        
+        height: 30rem;
+        background-image: url(footer_img1.webp);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1{
+        font-weight: 700;
+        font-size: x-large;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button {
+        height: 3rem;
+        width: 8rem;
+        position: relative;
+        top: 9rem;
+        right: 35rem;
+        background-color: blue;
+    }
